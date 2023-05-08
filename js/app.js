@@ -139,7 +139,7 @@ function multiplyArray(multArr) { //eslint-disable-line
 let string = `The numbers ${a},${b},${c} have a product of ${finalProduct}.`
 return [finalProduct, string];
 }
-
+// This will be question 5 iteration. 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
 
