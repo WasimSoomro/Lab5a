@@ -81,14 +81,21 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-let sum = 0;
-for (i=0; i < sum.length; i++) {
-  sum = sumArr[i]
-}
-return sum;
-console.log(sum);
+  let a = sumArr[0];
+  let b = sumArr[1];
+  let c = sumArr[2];
+let firstSum = sum(a,b)[0];
+let finalSum = sum(firstSum, c)[0];
+let sumArray = `${a},${b},${c} was passed in as an array of numbers, and ${finalSum} is their sum.`
 
-let stringArray = `${a},${b},${c} was passed in as an array of numbers, and ${sumOfArray} is their sum.`
+// let sum = 0;
+// for (i=0; i < sum.length; i++) {
+//   sum = sumArr[i]
+// }
+// return sum;
+// console.log(sum);
+
+// let stringArray = `${a},${b},${c} was passed in as an array of numbers, and ${sumOfArray} is their sum.`
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -136,9 +143,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 let testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
-function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+// function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
-}
+// }
 //This should be last branch.
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
