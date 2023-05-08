@@ -9,9 +9,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) {
-  let sum = a + b;
-  let string = `The sum of ${a} and ${b} is ${sum}.`;
-  return [sum, string];
+  let sum2 = a + b;
+  let string = `The sum of ${a} and ${b} is ${sum2}.`;
+  return [sum2, string];
 }
 
 // Here is the test for sum(); uncomment it to run it
